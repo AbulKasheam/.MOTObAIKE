@@ -1,0 +1,596 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000;
+    color: white;
+}
+span{
+    text-transform: uppercase;
+    color: #b6e925;
+    letter-spacing:2px;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+ul,a{
+    text-decoration: none;
+    list-style: none;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+.mainMenu{
+    padding: 0 100px;
+    border-bottom: 1px solid white;
+    
+}
+.menu{
+    width:97%;
+    float:left;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+.menu ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: aqua;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: #ddd;
+}
+.logo{
+    width:1%;
+    float: right;
+    
+}
+.logo span {
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+.logo span:hover{
+    color: aqua;
+} 
+
+
+.mainSection{
+
+}
+.mainDiv {
+    
+    position: relative;
+    width: 300px;
+    height: 300px;
+    /* background-color: white; */
+    left: 650px;
+    top: 150px;
+    transform: translate(-50%, 0%);
+}
+.div1 {
+    width: 60px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: red;
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    top: 0;
+    left: 0;
+    transform:rotate(90deg);
+}
+.div2 {
+    width: 60px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    top: 60px;
+    left: -30px;
+    transform: rotate(269deg);
+}
+.div3 {
+    width: 60px;
+    height: 30px;
+    background-color: #f4b605;
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    top: 15px;
+    left: -45px;
+}
+.div4 {
+    width: 60px;
+    height: 30px;
+    background-color: blue;
+    position: absolute;
+    top: 45px;
+    left: 14px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    transform: rotate(180deg);
+}
+.mainDiv h1{
+    margin-left: 84px;
+    
+}
+
+.blog{
+    padding: 30px 100px;
+}
+.bio{
+    width:60%;
+    float: left;
+    
+}
+.bio h1{}
+.bio h1 span{
+    color: aqua;
+}
+.bio h1 strong{
+    color: aqua;
+    font-size: 40px;
+}
+.bio p{
+    margin-top: 10px;
+    opacity: .5;
+}
+.bio button {
+    background: none;
+    margin-top: 35px;
+    border: 1px solid aqua;
+    padding: 15px 40px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition:.7s;
+}
+.bio button:hover{
+    background-color: aqua;
+    color: black;
+    border-radius:5px;
+    
+}
+
+.icon{
+    float: right;
+    width:40%;
+    text-align: right;
+}
+.icon ul li {
+    list-style: none;
+    margin: 20px 0;
+    font-size: 25px;
+    transition:.7s;
+}
+.icon ul li:hover {
+    color: red;
+}
+.fevorit{
+    color: black;
+}
+.fevorit img{
+    width: 90%;
+}
+.fevorit{
+    background-image: url(https://websitedemos.net/bike-modification-04/wp-content/uploads/sites/736/2020/11/custom-bike-builder-service-section-bg-l.svg);
+    background-position:bottom left;
+    background-repeat: no-repeat;
+    background-size: 50vw auto;
+    padding: 104px 40px
+
+}
+
+.baikImg{
+    float: left;
+    width:50%;
+}
+.price{
+    float: right;
+    width: 50%;
+}
+.price span{
+    color: #b6e925;
+    letter-spacing: 2px;
+}
+.price h1{
+    color: white;
+    padding: 20px 0;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.price p{
+    color: white;
+}
+.price ul{
+    margin-top: 30px;
+}
+.price ul li{
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+    list-style: none;
+}
+.price ul li i{
+    color:#b6e925;
+    margin-right: 10px;
+}
+.price button {
+    margin-top: 30px;
+    padding: 12px 25px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    letter-spacing: 4px;
+    transition: .7s;
+}
+.price button:hover{
+    background-color: #fff;
+    color: black;
+}
+/*taitle*/
+.taitle-section{
+    text-align: center;
+    margin-top: 30px;
+}
+.taitle-section span {
+    color: #b6e925;
+    font-size: 17px;
+}
+.taitle-section h1 {
+    margin: 20px 0;
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+.taitle-section p {
+    width: 713px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 41px;
+}
+
+img{
+    max-width: 100%;
+    height:100%;
+}
+.letesWork{
+    margin-top: 50px;
+}
+.work1{
+    width:40%;
+    float: left;
+    transition:.7s;
+}
+.work1 h1 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+.work1 span {
+    color: #b6e925;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+    letter-spacing: 3px;
+}
+.work2{
+    width:30%;
+    float: left;
+    transition:.7
+}
+.work2 h1 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+.work2 span {
+    color: #b6e925;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+    letter-spacing: 3px;
+}
+.work3{
+    width:30%;
+    float: left;
+    transition:.7
+}
+.work3 h1 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+.work3 span {
+    color: #b6e925;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+    letter-spacing: 3px;
+}
+
+.work1:hover{
+    opacity: .7;
+}
+.work2:hover{
+    opacity: .7;
+}
+.work3:hover{
+    opacity: .7;
+}
+
+
+
+.glints{
+    background-image: url(https://websitedemos.net/bike-modification-04/wp-content/uploads/sites/736/2020/11/custom-bike-builder-testimonial-section-bg.svg);
+    background-position: 50vw 14vh;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding:0 100px;
+}
+.glintLeft{
+    float: left;
+    width: 40%;
+    
+}
+.glintLeft span{
+    color:#b6e925 ;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+.glintLeft h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+.glintLeft h2{}
+.glintLeft a {
+    text-decoration: none;
+    color: #b6e925;
+    margin-top: 334px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.glintLeft a:hover{
+    color: white;
+}
+.glintright{
+    float: right;
+    width: 60%;
+}
+.glints{
+   
+}
+
+
+.logo_section{
+    text-align: center;
+    margin-top: 50px;
+}
+.logo1{
+    float: left;
+    width:20%;
+
+}
+.logo1 img{
+    
+}
+.logo2{
+    float: left;
+    width:20%;
+}
+.logo3{
+    float: left;
+    width:20%;
+}
+.logo4{
+    float: left;
+    width:20%;
+}
+
+
+/* OWNERSECTION */
+.ownerSection{
+    
+    background-image: url(https://websitedemos.net/bike-modification-04/wp-content/uploads/sites/736/2020/11/custom-bike-builder-owner-section-bg.svg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50vw auto;
+    
+}
+.ownerLeft{
+    width:50%;
+    float: left;
+}
+.ownerBio{
+    width:50%;
+    float: left;
+    margin-top: 90px;
+}
+.ownerBio span{
+    color:#b6e925 ;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.ownerBio h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.ownerBio p{
+    font-size: 20px;
+    line-height:40px;
+}
+.ownerBio img {
+    margin: 70px 60px;
+}
+
+
+.tiams{
+    margin-left: 100px;
+   
+}
+.tim1{
+    width:20%;
+    float: left;
+    margin-bottom: 20px;
+    
+}
+.tim2{
+    width:20%;
+    float: left;
+    margin-bottom: 20px;
+}
+.tim3{
+    width:20%;
+    float: left;
+    margin-bottom: 20px;
+}
+.tim4{
+    width:20%;
+    float: left;
+    margin-bottom: 20px;
+}
+/* DREAM */
+.ourDream{
+    margin-top: 100px;
+    background-image: url(https://websitedemos.net/bike-modification-04/wp-content/uploads/sites/736/2020/11/custom-bike-builder-cta-section-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 150px 0;
+}
+.dreamContent{
+    margin-left: 100px;
+}
+.dreamContent h1{
+    font-size: 60px;
+}
+.dreamContent p {
+    font-size: 20px;
+    margin: 23px 0;
+}
+.dreamContent button{
+    background: none;
+    padding:10px 35px;
+    display:block;
+    color: white;
+    transition:.7s;
+}
+.dreamContent button:hover{
+    background-color: #fff;
+    color: black;
+}
+/* footersection */
+.footerSection{
+    margin: 40px 100px;
+    border-bottom: 1px solid #2e2e2e;
+}
+.footerLeft{
+    float: left;
+    width:20%;
+}
+.footerLeft h1 {
+    margin-bottom: 60px;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.footerLeft  ul{}
+.footerLeft ul li {
+    font-size: 20px;
+    margin-bottom: 16px;
+    
+}
+.footerLeft ul ul li {
+    display: inline-block;
+    padding: 20px 10px;
+    color: white;
+}
+
+.footerCenter{
+    float: left;
+    width:20%;
+    margin-left: 50px;
+}
+.footerCenter h1{
+    margin-bottom: 60px;
+    font-size: 29px;
+    
+}
+.footerCenter  ul{}
+.footerCenter  ul li{
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+
+.footerServices{
+    float: left;
+    width:20%;
+    margin-left: 50px;
+}
+
+.footerServices h1{
+    margin-bottom: 60px;
+    font-size: 29px;
+}
+.footerServices  ul{}
+.footerServices  ul li{
+    font-size: 20px;
+    margin-bottom: 9px;
+    transition:.7s;
+    cursor: pointer;
+}
+.footerServices  ul li:hover{
+    color:#b6e925;
+}
+
+
+.footerRight h1{
+    margin-bottom: 60px;
+    font-size: 29px;
+}
+.footerRight ul{}
+.footerRight ul input {
+    font-size: 20px;
+    margin-bottom: 9px;
+    padding: 10px 20px;
+}
+.footerRight ul button {
+    padding: 10px 28px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    transition:.7s;
+}
+.footerRight ul button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.subFooter{
+    text-align: center;
+   
+}
